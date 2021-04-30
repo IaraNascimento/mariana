@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+
+@import "./assets/reset.css";
+
+.app {
+    background-color: #c9e7ff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-title-wrap {
+    display: block;
+    background-color: white;
+    padding: 16px;
+    margin: 0 auto;
+    width: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-title {
+    padding: 40px;
+    border: 2px solid #333;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-subtitle {
+    margin: 24px 0 0 0;
+    font-size: 20px;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.app-content {
+    display: block;
+    background-color: white;
+    margin: 24px auto;
+    max-width: 880px;
+    width: 90%;
+    min-width: 320px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;;
+    align-items: center;
+    padding: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-content section {
+    position: relative;
+    width: 33%;
+    padding: 8px;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 16px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.app-profile p {
+    text-align: left;
+}
+
+.app-picture {
+    max-width: 100%;
+    width: 64%;
+    border-radius: 50%;
+    margin: 0 4%;
+}
+
+.app-info li {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.app-info li:last-child {
+    margin-bottom: 0;
+}
+
+.app-habilities li {
+    text-align: left;
+}
+
+.app-habilities li h3 {
+    font-weight: bold;
+}
+
+.app-habilities li p {
+    margin-bottom: 8px;
 }
