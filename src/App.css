@@ -98,3 +98,15 @@ h2 {
 .app-habilities li p {
     margin-bottom: 8px;
 }
+
+@media (max-width: 800px) {
+    .app-title-wrap {
+        width: auto;
+    }
+    .app-content {
+        flex-wrap: wrap;
+    }
+    .app-content section {
+        width: 100%;
+    }
+}
