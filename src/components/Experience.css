@@ -1,0 +1,32 @@
+
+.exp-list {
+    margin: 8px;
+}
+
+.exp-list li {
+    margin-bottom: 16px;
+}
+
+.exp-title {
+    cursor: pointer;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.exp-title:hover .exp-ico {
+    opacity: 1;
+}
+
+.exp-logo {
+    max-height: 40px;
+    margin-right: 8px;
+}
+
+.exp-ico {
+    opacity: .8;
+    transition: all .4s ease;
+    margin-right: 8px;
+    font-size: 24px;
+}
